@@ -47,6 +47,7 @@ h4{
     display: block;
     margin: auto;
     width: 60%;
+    letter-spacing: 1px;
 }
 
 header {
@@ -63,8 +64,6 @@ header h1 {
 }
 
 header p {
-    width: 100%;
-    margin: auto;
     list-style: none;
     text-transform: capitalize;
     background-color: #a4eeca93;
@@ -93,8 +92,8 @@ main {
     text-align: justify;
     font-family: 'Lora', serif;
     letter-spacing: 2px;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
     margin-bottom: 24px;
 }
 
@@ -112,4 +111,37 @@ footer > a {
     color: #000000;
     font-weight: 600;
     font-size: 0.8em;
+}
+
+@media only screen and (max-width: 1250px) {
+    main {
+        width: 95vw;
+    }
+
+    header h1 {
+        font-size: 2em;
+        letter-spacing: 7px;
+    }
+    .sobre {
+        padding: 0;
+        margin: auto;
+        width: 300px;
+    }
+    header p {
+        margin: 0;
+    }
+
+    section {
+        margin: 0;
+        text-align: left;
+        letter-spacing: 1px;
+    }
+
+    footer a {
+        letter-spacing: 0px;
+    }
+
+    main {
+        margin-bottom: 10px;
+    }
 }
