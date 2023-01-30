@@ -92,8 +92,8 @@ main {
     text-align: justify;
     font-family: 'Lora', serif;
     letter-spacing: 2px;
-    border-bottom-left-radius: 26px;
-    border-bottom-right-radius: 26px;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
     margin-bottom: 24px;
 }
 
