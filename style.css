@@ -89,6 +89,8 @@ main {
     margin: auto;
     text-align: justify;
     font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: 500;
     letter-spacing: 2px;
     border-bottom-left-radius: 32px;
     border-bottom-right-radius: 32px;
