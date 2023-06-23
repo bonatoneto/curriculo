@@ -52,7 +52,6 @@ h4{
 
 header {
     text-align: center;
-    text-transform: uppercase;
 }
 
 header h1 {
@@ -65,7 +64,6 @@ header h1 {
 
 header p {
     list-style: none;
-    text-transform: capitalize;
     background-color: #a4eeca93;
     padding: 5px;
     margin: 20px;
